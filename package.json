@@ -7,7 +7,7 @@
   },
   "engines": {
     "node": "~8.11.2",
-    "npm" :"~6.3.0"
+    "npm": "~6.3.0"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -15,6 +15,7 @@
     "debug": "^3.1.0",
     "express": "^4.16.3",
     "jade": "~1.11.0",
+    "mongoose": "^5.2.12",
     "morgan": "^1.9.0",
     "serve-favicon": "^2.5.0"
   }
