@@ -7,7 +7,9 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 
-mongoose.connect(dbURI);
+mongoose.connect(dbURI,{ useNewUrlParser: true });
+mongoose.set('useCreateIndex', true);
+
 
 // CONNECTION EVENTS
 mongoose.connection.on('connected', function() {
