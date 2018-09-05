@@ -4,7 +4,7 @@ var apiOptions = {
 };
 
 if (process.env.NODE_ENV === 'production') {
-  apiOptions.server = "https://evening-fortress-64646.herokuapp.com/";
+  apiOptions.server = "https://evening-fortress-64646.herokuapp.com";
 }
 
 var _isNumeric = function (n) {
