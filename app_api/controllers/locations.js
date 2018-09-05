@@ -95,7 +95,7 @@ module.exports.locationsReadOne = function (req, res) {
             .exec(function (err, location) {
                 if (!location) {
                     sendJSONresponse(res, 404, {
-                        "message": "locationid not found"
+                        "message" : "locationid not found"
                     });
                     return;
                 } else if (err) {
@@ -109,7 +109,7 @@ module.exports.locationsReadOne = function (req, res) {
     } else {
         console.log('No locationid specified');
         sendJSONresponse(res, 404, {
-            "message": "No locationid in request"
+            "message" : "No locationid in request"
         });
     }
 };
